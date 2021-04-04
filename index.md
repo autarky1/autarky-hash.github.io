@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/autarky-hash/autarky-hash.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/autarky-hash/autarky-hash.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Diana Tan
+HCDE 533 Student graduating this year with experience with in business, supply chain and logistics.
+## About Me
+- Loves Tech Entrepreneurship
+- MBA from the **University of Chicago Booth School of Business**
+![Image](https://www.chicagotribune.com/resizer/w3KnQErAgBEoZKPAU9rMvIUT6ik=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/USMHO3YR6NH63CPAJE5G3DH4FU.jpg)
+- Currently works at **Amazon** managing eBike Delivery
+![Image](https://specials-images.forbesimg.com/imageserve/5de84012e961e100078f2f93/960x0.jpg?fit=scale)
+- Former Global Launch Manager at **Microsoft** managing Windows Surface worldwide across 29 countries
+- Aspiring Futurist
+## Why do I want to learn about digital fabrication
+I want to learn about 3D printing prototyping capabilities that I can use to realize my own ideas. I'm interested in how 3D printing can be converted to production and how to turn ideas into commercial realities. From working in supply chain in the past, I realize how complex it is to have another designer turn ideas and tradeoffs into production level work and I want to understand the tradeoffs.
+## What do I hope to learn in the class
+I want to learn 3D prototyping end to end as well as experiment with other tools I can use to prototype. For example, laser cutting, cricuts (etc) that can be used cohesively ot make a prototype. I also want to learn about the limitations as well as potential (e.g., can I buy a bigger 3D printer?) 
+## What do I want to teach my peers
+I want to teach my peers about business and commercial applications if that is a segment of the class. I'm pretty well versed in the end to end supply chain and the design and build model of manufacturing. I'd like to bridge the gap between 3D Printing as a hobby to 3D printing as a business opportunity.
