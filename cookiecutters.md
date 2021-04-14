@@ -22,10 +22,16 @@ I removed the background in Photoshop of each photo, converted the photo to blac
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-anna-shvets-4587992_backgroundremoved_corgi.png" height=250px> 
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-prasanth-inturi-1051838-backgroundremoved_outline.png" height=250px> 
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Dancing_BackgroundRemoved.png" height=250px>
- 
+
 ## Step 3: Rhino Model
 I created a Rhino Model by smoothing out the lines, creating an offset of the trace, cleaning up the image and then I used the extrude curve in order to get the height to ~1 inch for each cookie cutter.
 <p>
 <a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Corgi.stl"> STL Corgi Link</a></p>
 <a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Dancer.stl"> STL Dancer Link</a></p>
 <a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Namaste.stl"> STL Namaste Yoga Link</a></p>
+
+## Step 4: Rhino Files (for Reference)
+<a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Corgi.3dm"> Corgi Rhino</a></p>
+<a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Dancer.3dm"> Dancer Link</a></p>
+<a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NamasteCookieCutter.3dm"> Namaste Yoga Link</a></p>
+
