@@ -35,3 +35,7 @@ I created a Rhino Model by smoothing out the lines, creating an offset of the tr
 <a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Dancer.3dm"> Dancer Link</a></p>
 <a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NamasteCookieCutter.3dm"> Namaste Yoga Link</a></p>
 
+## Lessons Learned
+-Contrasting Images are easier to adjust because the background does not interfere that much to clip a clean image.
+-This is an iterative process. Sometimes I have to go back to photoshop or illustrator to get a clean Rhino image.
+-I struggled with the complexity of the dancer link and could not eliminate the intersecting curves. Some of the other curves (like the Yoga one) was way easier.
