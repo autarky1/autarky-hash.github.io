@@ -15,19 +15,12 @@ I originally chose the following photos: <p>
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-anastasiya-gepp-1984437.jpg" height=250px> 
 <p> 1. Attribution: Anna Shvets @ Pexels <a href="https://www.pexels.com/photo/cute-dog-wearing-a-party-hat-4587992/"> Link</a>
 <p> 2. Attribution: Prasanth Inturi @ Pexels <a href="https://www.pexels.com/photo/silhouette-of-man-at-daytime-1051838/"> Link</a>
-<p> 3. Attribution: Anastasiya Gepp @ Pexels <a href="https://www.pexels.com/photo/photo-of-woman-raising-her-both-hands-1984437/"> Link</a>
-## Step 2: Backgrounnd Removal in Photoshop and Illustrator
-I removed the background in Photoshop of each photo, converted the photo to black and white with high contrast, put the photos into gaussian blur and then thresholded the photo. I cropped the photos to relevant parts and then imported the files to Illustrator where I then did an image trace. After image trace, I meticulously removed artifacts, smoothed the points and reconciled any additional image issues. I also removed the fill and added a stroke to each image so that the image would resemble an outline that can be in Rhino.
+<p> 3. Attribution: Anastasiya Gepp @ Pexels <a href="https://www.pexels.com/photo/photo-of-woman-raising-her-both-hands-1984437/"> Link</a></p>
 
+## Step 2: Background Removal in Photoshop and Illustrator
+I removed the background in Photoshop of each photo, converted the photo to black and white with high contrast, put the photos into gaussian blur and then thresholded the photo. I cropped the photos to relevant parts and then imported the files to Illustrator where I then did an image trace. After image trace, I meticulously removed artifacts, smoothed the points and reconciled any additional image issues. I also removed the fill and added a stroke to each image so that the image would resemble an outline that can be in Rhino. <p>
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-prasanth-inturi-1051838-backgroundremoved_outline.png" height=250px> 
 
-  
-I originally chose the following photos: <p>
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-anna-shvets-4587992.jpg" height=250px> 
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-prasanth-inturi-1051838.jpg" height=250px> 
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-anastasiya-gepp-1984437.jpg" height=250px> 
-<p> 1. Attribution: Anna Shvets @ Pexels <a href="https://www.pexels.com/photo/cute-dog-wearing-a-party-hat-4587992/"> Link</a>
-<p> 2. Attribution: Prasanth Inturi @ Pexels <a href="https://www.pexels.com/photo/silhouette-of-man-at-daytime-1051838/"> Link</a>
-<p> 3. Attribution: Anastasiya Gepp @ Pexels <a href="https://www.pexels.com/photo/photo-of-woman-raising-her-both-hands-1984437/"> Link</a>
 
 ## About Me
 - Loves Tech Entrepreneurship
