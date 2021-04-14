@@ -17,22 +17,15 @@ I originally chose the following photos: <p>
 <p> 2. Attribution: Prasanth Inturi @ Pexels <a href="https://www.pexels.com/photo/silhouette-of-man-at-daytime-1051838/"> Link</a>
 <p> 3. Attribution: Anastasiya Gepp @ Pexels <a href="https://www.pexels.com/photo/photo-of-woman-raising-her-both-hands-1984437/"> Link</a></p>
 
-## Step 2: Background Removal in Photoshop and Illustrator
+## Step 2: Background Removal & Image Tracing in Photoshop and Illustrator
 I removed the background in Photoshop of each photo, converted the photo to black and white with high contrast, put the photos into gaussian blur and then thresholded the photo. I cropped the photos to relevant parts and then imported the files to Illustrator where I then did an image trace. After image trace, I meticulously removed artifacts, smoothed the points and reconciled any additional image issues. I also removed the fill and added a stroke to each image so that the image would resemble an outline that can be in Rhino. <p>
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-anna-shvets-4587992_backgroundremoved_corgi.png" height=250px> 
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/pexels-prasanth-inturi-1051838-backgroundremoved_outline.png" height=250px> 
-
-
-## About Me
-- Loves Tech Entrepreneurship
-- MBA from the **University of Chicago Booth School of Business**
-![Image](https://www.chicagotribune.com/resizer/w3KnQErAgBEoZKPAU9rMvIUT6ik=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/USMHO3YR6NH63CPAJE5G3DH4FU.jpg)
-- Currently works at **Amazon** managing eBike Delivery
-![Image](https://specials-images.forbesimg.com/imageserve/5de84012e961e100078f2f93/960x0.jpg?fit=scale)
-- Former Global Launch Manager at **Microsoft** managing Windows Surface worldwide across 29 countries
-- Aspiring Futurist
-## Why do I want to learn about digital fabrication
-I want to learn about 3D printing prototyping capabilities that I can use to realize my own ideas. I'm interested in how 3D printing can be converted to production and how to turn ideas into commercial realities. From working in supply chain in the past, I realize how complex it is to have another designer turn ideas and tradeoffs into production level work and I want to understand the tradeoffs.
-## What do I hope to learn in the class
-I want to learn 3D prototyping end to end as well as experiment with other tools I can use to prototype. For example, laser cutting, cricuts (etc) that can be used cohesively ot make a prototype. I also want to learn about the limitations as well as potential (e.g., can I buy a bigger 3D printer?) 
-## What do I want to teach my peers
-I want to teach my peers about business and commercial applications if that is a segment of the class. I'm pretty well versed in the end to end supply chain and the design and build model of manufacturing. I'd like to bridge the gap between 3D Printing as a hobby to 3D printing as a business opportunity.
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Dancing_BackgroundRemoved.png" height=250px>
+ 
+## Step 3: Rhino Model
+I created a Rhino Model by smoothing out the lines, creating an offset of the trace, cleaning up the image and then I used the extrude curve in order to get the height to ~1 inch for each cookie cutter.
+<p>
+<a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Corgi.stl"> STL Corgi Link</a></p>
+<a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Dancer.stl"> STL Dancer Link</a></p>
+<a href="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Namaste.stl"> STL Namaste Yoga Link</a></p>
