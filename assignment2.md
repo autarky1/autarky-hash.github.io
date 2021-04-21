@@ -31,23 +31,15 @@ I leveled the plate in 2 different ways- one with a piece of paper manually and 
 I got stuck on homing failed on the machine, Please reset multiple times. Sometimes I manage to exit the error by turning the machine on and off again or by moving the printer head or by moving the cables I always inevitably ended up back at Homing Failed.
 
 ## ERROR! Leveling Print in 1 Line
-I tried to create a leveling print with the Filament Friday leveling file but instead the printer only moved on 1 axis repeatedly and created a straight line. After I started the print, the printer didn't show an error but also didn't move in the square box they showed me. 
+I tried to create a leveling print with the Filament Friday leveling file but instead the printer only moved on 1 axis repeatedly and created a straight line. After I started the print, the printer didn't show an error but also didn't move in the square box that was in the video.
 
 ## ERROR! Nozzle Stuck
 After the printing in 1 line, the printer then printed on itself repeatedly until the nozzle got stuck. Thanks our class Discord, Kenny (shoutout!) told me to heat up the PLA which released the misprint. 
 
 ## Step 3: Rhino Model- Cube Test Print
-I created a Rhino Model of the cube first through the Solid -> Cube function. I also used a centimeter template for the model.
+I created a Rhino Model of the cube first through the Solid -> Cube function. I also used a centimeter template for the model. 
 
 ## Step 4: Rhino Files (for Reference)
-
-
-## Lessons Learned
--Contrasting Images are easier to adjust because the background does not interfere that much to clip a clean image.
--This is an iterative process. Sometimes I have to go back to photoshop or illustrator to get a clean Rhino image.
--I struggled with the complexity of the dancer link and could not eliminate the intersecting curves. Some of the other curves (like the Yoga one) was way easier
-
-## Rhino Screenshots (For Reference)
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoModel_Namaste.png" height=250px> 
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoModel_Corgi.png" height=250px> 
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCube.3dm
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder.3dm
 
