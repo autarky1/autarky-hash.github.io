@@ -36,8 +36,17 @@ I tried to create a leveling print with the Filament Friday leveling file but in
 ## ERROR! Nozzle Stuck
 After the printing in 1 line, the printer then printed on itself repeatedly until the nozzle got stuck. Thanks our class Discord, Kenny (shoutout!) told me to heat up the PLA which released the misprint. 
 
+## MANY HOURS LATER
+I realized that my error many hours later was in the initial assembly of the printer itself- I did not realize that there was a roll for the belt behind the QR code for the Ender Pro. Because of that, my y did not align and it would not auto home. I had tried everything- attempting to level and level, tightening it manually, trying to unplug all of hte plugs and replugging them. After I tightened the belt, I was able to finally level the plate.
+
 ## Step 3: Rhino Model- Cube Test Print
-I created a Rhino Model of the cube first through the Solid -> Cube function. I also used a centimeter template for the model. 
+I created a Rhino Model of the cube first through the Solid -> Cube function. I used a mm function and also created a solid box for the maker itself under 220mmx220mmx250mm.
+
+## Step 4: Import Rhino Cube into Ultimaker Cura
+I then placed my cube into Ultimaker Cura. In Ultimaker, I managed to set the cube quality from low to high. However, the time greatly varied. The Low quality cube was reported to take 20 minutes, the standard quality cube was reported to take 26 min and slicing for a high quality cube was reported to take 33 min.
+
+## Step 5: Printing my First Cube
+I loaded my cubes into Ultimaker and ran into a series of issues- 
 
 ## Step 4: Rhino Files (for Reference)
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCube.3dm
