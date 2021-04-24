@@ -39,22 +39,27 @@ After the printing in 1 line, the printer then printed on itself repeatedly unti
 ## MANY HOURS LATER (24+ hours later)
 I realized that my error many hours later was in the initial assembly of the printer itself- I did not realize that there was a roll for the belt behind the QR code for the Ender Pro. Because of that, my y did not align and it would not auto home. I had tried everything- attempting to level and level, tightening it manually, trying to unplug all of hte plugs and replugging them. After I tightened the belt, I was able to finally level the plate.
 
-## Step 3: Rhino Model- Cube Test Print
+## Step 3: Rhino Model- Cube Test Print 
 I created a Rhino Model of the cube first through the Solid -> Cube function. I used a mm function and also created a solid box for the maker itself under 220mmx220mmx250mm.
 
 ## Step 4: Import Rhino Cube into Ultimaker Cura
 I then placed my cube into Ultimaker Cura. In Ultimaker, I managed to set the cube quality from low to high. However, the time greatly varied. The Low quality cube was reported to take 20 minutes, the standard quality cube was reported to take 26 min and slicing for a high quality cube was reported to take 33 min.
 
 ## Step 5: Printing my First Cube (6+ hours)
-I loaded my cubes into Ultimaker and ran into a series of issues, mostly regarding adhesion
+I loaded my cubes into Ultimaker and ran into a series of issues, mostly regarding adhesion. I printed 3 cubes of varying quality. This took a significant amount of time because the test prints would stop adhering to the plate and I would need to start over until I came up with a method. I literally slept next to my printer so I can get up in the middle of the night to start over.
 
-## Step XX:
-I rotated the cylinder on its side by going into Snap Rotation and moving the cylinder. I generated supports by searching for support and clicking "generate support" before slicing for the GCode.
+## Step XX: Printing Cylinders, Tubes (10+ hours).
+I adjusted the ZSeam, Spiralized Outer Contour and Wall Thickness by going into the settings in Cura and just searching for Z-Seam Spiralized Outer Contour (etc.)
+I rotated the cylinder on its side by going into Snap Rotation and moving the cylinder. I generated supports by searching for support and clicking "generate support" before slicing for the GCode. This took a long time because of the time it takes to make each print. 
 
-## Step xx: Checking Calipers
+## Step xx: Checking Calipers/Results
 First I turned on the calipers by clicking on the on switch and then zeroing it out and setting it to the origin.
 Then I did my outer management by putting the objects in the jaws, followed by the inner measurements. Here are my results:
 
+## Lessons Learned
+-Adhesion was by far the biggest challenge after assembly. Long prints, especially, sometimes would not adhere after printing for 1+ hours, which will ruin a perfect print. I experimented with Glue Sticks, cleaning the plate with water and using A LOT of glue stick. While the class slides say that we can slow the print, each print already takes so long than slowing the print will mean that I will never finish the assignment).
+-Ultimately, I found a nice method for getting it to adhere (other than slowing down the print)- After the print, I actually clean the glass plate with hand sanitizer. Then, I preheat the PLA before starting the print. The hand sanitizer evaporates as the print starts and removes any gunk left on the plate. It also provides a base for the print to start from. Preheating the PLA allows the first layer to stick to the glass because the plate is still hot when the PLA is printed. 
+-Low Quality prints significantly faster than high quality and I did not find a major difference in the print quality at this size.
 
 ## Step 4: Rhino Files (for Reference)
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCube.3dm
