@@ -6,6 +6,7 @@ Create a grasshopper definition of a clip and 3D print the clip. Your clip shoul
 
 ## Grasshopper Definition
 First I created a grasshopper definition of the clip which allowed me to vary the amount of inputs and outputs so that I can manipulate the array. I created a circle, rectangle, and polar arrays with input for slot depth, slot width and number of slots. Then, I baked the shapes as I played around with them in Rhino.
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png
 
 ## Rhino Shapes
 
