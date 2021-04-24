@@ -48,6 +48,9 @@ I then placed my cube into Ultimaker Cura. In Ultimaker, I managed to set the cu
 ## Step 5: Printing my First Cube (6+ hours)
 I loaded my cubes into Ultimaker and ran into a series of issues, mostly regarding adhesion
 
+## Step XX:
+I rotated the cylinder on its side by going into Snap Rotation and moving the cylinder.
+
 ## Step xx: Checking Calipers
 First I turned on the calipers by clicking on the on switch and then zeroing it out and setting it to the origin.
 Then I did my outer management by putting the objects in the jaws, followed by the inner measurements. Here are my results:
