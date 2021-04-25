@@ -55,6 +55,7 @@ I rotated the cylinder on its side by going into Snap Rotation and moving the cy
 ## Step xx: Checking Calipers/Results
 First I turned on the calipers by clicking on the on switch and then zeroing it out and setting it to the origin.
 Then I did my outer management by putting the objects in the jaws, followed by the inner measurements. Here are my results:
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/printingtable.png
 
 ## Lessons Learned
 -Adhesion was by far the biggest challenge after assembly. Long prints, especially, sometimes would not adhere after printing for 1+ hours, which will ruin a perfect print. I experimented with Glue Sticks, cleaning the plate with water and using A LOT of glue stick. While the class slides say that we can slow the print, each print already takes so long than slowing the print will mean that I will never finish the assignment).
