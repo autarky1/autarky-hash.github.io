@@ -46,7 +46,7 @@ I created a Rhino Model of the cube first through the Solid -> Cube function. I 
 I then placed my cube into Ultimaker Cura. In Ultimaker, I managed to set the cube quality from low to high. However, the time greatly varied. The Low quality cube was reported to take 20 minutes, the standard quality cube was reported to take 26 min and slicing for a high quality cube was reported to take 33 min.
 
 ## Step 5: Printing my First Cube (6+ hours)
-I loaded my cubes into Ultimaker and ran into a series of issues, mostly regarding adhesion. I printed 3 cubes of varying quality. This took a significant amount of time because the test prints would stop adhering to the plate and I would need to start over until I came up with a method. I literally slept next to my printer so I can get up in the middle of the night to start over.
+I loaded my cubes into Ultimaker and ran into a series of issues, mostly regarding adhesion. I printed 3 cubes of varying quality. This took a significant amount of time because the test prints would stop adhering to the plate and I would need to start over until I came up with a method. I literally slept next to my printer so I can get up in the middle of the night to start over. I used Brim to get it to adhere.
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_0994.JPG" height=px> </html> 
 
 ## Step 6: Printing Cylinders, Tubes (10+ hours).
