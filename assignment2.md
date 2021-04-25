@@ -56,21 +56,22 @@ I rotated the cylinder on its side by going into Snap Rotation and moving the cy
 First I turned on the calipers by clicking on the on switch and then zeroing it out and setting it to the origin.
 Then I did my outer management by putting the objects in the jaws, followed by the inner measurements. Here are my results:
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/printingtable.png" height=px> </html> 
+
 ## Lessons Learned
-Adhesion was by far the biggest challenge after assembly. Long prints, especially, sometimes would not adhere after printing for 1+ hours, which will ruin a perfect print. I experimented with Glue Sticks, cleaning the plate with water and using A LOT of glue stick. While the class slides say that we can slow the print, each print already takes so long than slowing the print will mean that I will never finish the assignment).
-Ultimately, I found a nice method for getting it to adhere (other than slowing down the print)- After the print, I actually clean the glass plate with hand sanitizer. Then, I preheat the PLA before starting the print. The hand sanitizer evaporates as the print starts and removes any gunk left on the plate. It also provides a base for the print to start from. Preheating the PLA allows the first layer to stick to the glass because the plate is still hot when the PLA is printed. 
-Low Quality prints significantly faster than high quality and I did not find a major difference in the print quality at this size.
+-Adhesion was by far the biggest challenge after assembly. Long prints, especially, sometimes would not adhere after printing for 1+ hours, which will ruin a perfect print. I experimented with Glue Sticks, cleaning the plate with water and using A LOT of glue stick. While the class slides say that we can slow the print, each print already takes so long than slowing the print will mean that I will never finish the assignment). <p>
+-Ultimately, I found a nice method for getting it to adhere (other than slowing down the print)- After the print, I actually clean the glass plate with hand sanitizer. Then, I preheat the PLA before starting the print. The hand sanitizer evaporates as the print starts and removes any gunk left on the plate. It also provides a base for the print to start from. Preheating the PLA allows the first layer to stick to the glass because the plate is still hot when the PLA is printed. <p>
+-Low Quality prints significantly faster than high quality and I did not find a major difference in the print quality at this size.
 
 ## Rhino Files (for Reference)
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCube.3dm
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder.3dm
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCubeHole.3dm
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoTube.3dm
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCube.3dm<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder.3dm<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCubeHole.3dm<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoTube.3dm<p>
 
 ## STL Files
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCube.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCubeHole.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder_0.001.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder_0.1.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoTube.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCube.stl<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCubeHole.stl<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder.stl<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder_0.001.stl<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoCylinder_0.1.stl<p>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoTube.stl<p>
