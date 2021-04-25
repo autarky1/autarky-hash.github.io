@@ -48,11 +48,11 @@ I then placed my cube into Ultimaker Cura. In Ultimaker, I managed to set the cu
 ## Step 5: Printing my First Cube (6+ hours)
 I loaded my cubes into Ultimaker and ran into a series of issues, mostly regarding adhesion. I printed 3 cubes of varying quality. This took a significant amount of time because the test prints would stop adhering to the plate and I would need to start over until I came up with a method. I literally slept next to my printer so I can get up in the middle of the night to start over.
 
-## Step XX: Printing Cylinders, Tubes (10+ hours).
+## Step 6: Printing Cylinders, Tubes (10+ hours).
 I adjusted the ZSeam, Spiralized Outer Contour and Wall Thickness by going into the settings in Cura and just searching for Z-Seam Spiralized Outer Contour (etc.)
 I rotated the cylinder on its side by going into Snap Rotation and moving the cylinder. I generated supports by searching for support and clicking "generate support" before slicing for the GCode. This took a long time because of the time it takes to make each print. 
 
-## Step xx: Checking Calipers/Results
+## Step 7: Checking Calipers/Results
 First I turned on the calipers by clicking on the on switch and then zeroing it out and setting it to the origin.
 Then I did my outer management by putting the objects in the jaws, followed by the inner measurements. Here are my results:
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/printingtable.png" height=250px> 
