@@ -39,7 +39,7 @@ After the printing in 1 line, the printer then printed on itself repeatedly unti
 ## MANY HOURS LATER (24+ hours later)
 I realized that my error many hours later was in the initial assembly of the printer itself- I did not realize that there was a roll for the belt behind the QR code for the Ender Pro. Because of that, my y did not align and it would not auto home. I had tried everything- attempting to level and level, tightening it manually, trying to unplug all of hte plugs and replugging them. After I tightened the belt, I was able to finally level the plate.
 
-## Step 3: Rhino Model- Cube Test Print 
+## Step 3: Rhino Model- Cube Test Print
 I created a Rhino Model of the cube first through the Solid -> Cube function. I used a mm function and also created a solid box for the maker itself under 220mmx220mmx250mm.
 
 ## Step 4: Import Rhino Cube into Ultimaker Cura
@@ -51,12 +51,14 @@ I loaded my cubes into Ultimaker and ran into a series of issues, mostly regardi
 
 ## Step 6: Printing Cylinders, Tubes (10+ hours).
 I adjusted the ZSeam, Spiralized Outer Contour and Wall Thickness by going into the settings in Cura and just searching for Z-Seam Spiralized Outer Contour (etc.)
-I rotated the cylinder on its side by going into Snap Rotation and moving the cylinder. I generated supports by searching for support and clicking "generate support" before slicing for the GCode. This took a long time because of the time it takes to make each print. 
+I rotated the cylinder on its side by going into Snap Rotation and moving the cylinder. I generated supports by searching for support and clicking "generate support" before slicing for the GCode. This took a long time because of the time it takes to make each print. The worst print by far was the Cylinder on its side because the time it took to print meant that it kept losing adhesion when the plate cooled before it can finish
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_0995.JPG" height=px> </html> 
 
 ## Step 7: Checking Calipers/Results
 First I turned on the calipers by clicking on the on switch and then zeroing it out and setting it to the origin.
 Then I did my outer management by putting the objects in the jaws, followed by the inner measurements. Here are my results:
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/printingtable.png" height=px> </html> 
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_0996.JPG" height=px> </html> 
 
 ## Lessons Learned
 -Adhesion was by far the biggest challenge after assembly. Long prints, especially, sometimes would not adhere after printing for 1+ hours, which will ruin a perfect print. I experimented with Glue Sticks, cleaning the plate with water and using A LOT of glue stick. While the class slides say that we can slow the print, each print already takes so long than slowing the print will mean that I will never finish the assignment). <p>
