@@ -47,6 +47,7 @@ I then placed my cube into Ultimaker Cura. In Ultimaker, I managed to set the cu
 
 ## Step 5: Printing my First Cube (6+ hours)
 I loaded my cubes into Ultimaker and ran into a series of issues, mostly regarding adhesion. I printed 3 cubes of varying quality. This took a significant amount of time because the test prints would stop adhering to the plate and I would need to start over until I came up with a method. I literally slept next to my printer so I can get up in the middle of the night to start over.
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_0994.JPG" height=px> </html> 
 
 ## Step 6: Printing Cylinders, Tubes (10+ hours).
 I adjusted the ZSeam, Spiralized Outer Contour and Wall Thickness by going into the settings in Cura and just searching for Z-Seam Spiralized Outer Contour (etc.)
