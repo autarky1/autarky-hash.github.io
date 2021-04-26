@@ -9,6 +9,7 @@ First I created a grasshopper definition of the clip which allowed me to vary th
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png
 
 ## Rhino Shapes
+Then I went from grasshopper back to Rhino to move the shape out and then did a curve boolean to remove the excess. After I did the curve boolean, I removed the remaining bits by just cutting and deleting and then I extruded the curve.
 
 ## Printing 10 Shapes
 
@@ -21,3 +22,5 @@ https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png
 
 Create a grasshopper definition that creates nesting structures (E.g. using offsets) that can be 3D printed in their nested state. You should have at least 3 nesting structures. Bake the result, export an STL, and 3D print the nested structure. The geometry can be whatever you want. Submit the rhino file, the grasshopper definition, your STL, and documentation of the print.
 
+## Rhino/Grasshopper Setting
+I started by creating a Polygon in Grasshopper with a number slider.
