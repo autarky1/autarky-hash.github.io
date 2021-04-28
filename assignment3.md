@@ -14,8 +14,10 @@ Then I went from grasshopper back to Rhino to move the shape out and then did a 
 ## Printing 10 Clips
 I documented the print settings of each print. I initially tried to print all 10 paper clips simultaneously but then decided that the prints go faster if I did them one at a time so I have mutliple STL files.
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/PaperclipSettings.png" height=px> </html>
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1013.JPG" height=px> </html>
 
 ## Video
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1016.MOV" height=px> </html>
 
 ## STL File
 
