@@ -21,6 +21,11 @@ Link https://drive.google.com/file/d/1TZHVffnY4FFO1f2AdLM7L6f6nrV5j5PF/view?usp=
 
 ## STL File
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/1Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/2Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/3Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/4Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/5Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/6-9Clip.stl
 
 
 ## Part 2: Making nested objects
@@ -36,5 +41,13 @@ When I went into Rhino, I did Curve Boolean again and extracted the curves of my
 
 ## Nested Print
 I managed to finally make the nested print. I used a brim on the bottom of the print of the pentagon.
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1012.JPG" height=px> </html>
+
 
 ## STL File
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes3.stl
+
+## Rhino Files
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes.3dm
+
+
