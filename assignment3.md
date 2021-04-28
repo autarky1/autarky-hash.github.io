@@ -49,5 +49,5 @@ https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes3.s
 
 ## Rhino Files
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes.3dm
-
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/PaperClips.3dm
 
