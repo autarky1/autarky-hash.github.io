@@ -24,6 +24,14 @@ I documented the print settings of each print. I initially tried to print all 10
 
 Create a grasshopper definition that creates nesting structures (E.g. using offsets) that can be 3D printed in their nested state. You should have at least 3 nesting structures. Bake the result, export an STL, and 3D print the nested structure. The geometry can be whatever you want. Submit the rhino file, the grasshopper definition, your STL, and documentation of the print.
 
-## Rhino/Grasshopper Setting
-I started by creating a Polygon in Grasshopper with a number slider.
+## Grasshopper Setting
+I started by creating a Polygon in Grasshopper with a number slider. I then did an offset of the polygon multiple times.
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper2.png" height=px> </html>
+
+## Rhino Setting
+When I went into Rhino, I did Curve Boolean again and extracted the curves of my pentagon. I then deleted the excess layers and then extruded the curve. However, I noticed that i had multiple mesh issues when I imported the file into Ultimaker Cura. I had to keep going back into Rhino to edit the file.
+
+## Nested Print
+I managed to finally make the nested print. I used a brim on the bottom of the print of the pentagon.
+
+## STL File
