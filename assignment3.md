@@ -17,7 +17,7 @@ I documented the print settings of each print. I initially tried to print all 10
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1013.JPG" height=px> </html>
 
 ## Video
-<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/img-1016_I77SGwNB.mov height=px> </html>
+<html><img src="https://drive.google.com/file/d/1TZHVffnY4FFO1f2AdLM7L6f6nrV5j5PF/view?usp=sharing" height=px> </html>
 
 ## STL File
 
