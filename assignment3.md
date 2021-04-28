@@ -6,12 +6,14 @@ Create a grasshopper definition of a clip and 3D print the clip. Your clip shoul
 
 ## Grasshopper Definition
 First I created a grasshopper definition of the clip which allowed me to vary the amount of inputs and outputs so that I can manipulate the array. I created a circle, rectangle, and polar arrays with input for slot depth, slot width and number of slots. Then, I baked the shapes as I played around with them in Rhino.
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png" height=px> </html>
 
 ## Rhino Shapes
-Then I went from grasshopper back to Rhino to move the shape out and then did a curve boolean to remove the excess. After I did the curve boolean, I removed the remaining bits by just cutting and deleting and then I extruded the curve.
+Then I went from grasshopper back to Rhino to move the shape out and then did a curve boolean to remove the excess. After I did the curve boolean, I removed the remaining bits by just cutting and deleting and then I extruded the curve. I printed 10 clips of varying levels of width, depth and height based on changing the settings in grasshopper. 
 
-## Printing 10 Shapes
+## Printing 10 Clips
+I documented the print settings of each print. I initially tried to print all 10 paper clips simultaneously but then decided that the prints go faster if I did them one at a time so I have mutliple STL files.
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/PaperclipSettings.png" height=px> </html>
 
 ## Video
 
