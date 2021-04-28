@@ -26,3 +26,4 @@ Create a grasshopper definition that creates nesting structures (E.g. using offs
 
 ## Rhino/Grasshopper Setting
 I started by creating a Polygon in Grasshopper with a number slider.
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper2.png" height=px> </html>
