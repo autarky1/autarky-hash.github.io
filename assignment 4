@@ -1,0 +1,57 @@
+# Diana Tan
+
+##Part 1: Modify the mesh of two STLs to produce a single printable STL. You may use whatever STLs you want, e.g. downloaded from Thingiverse or elsewhere! When exporting the STL from Rhino, it should pass all checks for rapid prototyping.
+
+Part 2: Please make (a start on) a lamp! Using your lamp innereds' measurements as a point of departure, make a lamp that can be assembled around the innereds out of 3D printed parts. You should be able to remove the lamp from the innereds again, so you cannot attach the lamp to the innereds with glue, fasteners, adhesive, etc. This will require you to think carefully about the interface between your parts. Imagine your lamp being in a domestic setting---perhaps it will not be wildly shaken, but it should not fall apart with normal use. For the rest of the lamp, get creative!
+
+Documentation for this assignment: Document your project on a webpage linked to from your main webpage. You will be expected to talk about your project in class next week using your webpage documentation as your presentation material. We want to know about what your lamp plan is, and how you are progressing through design, CAD, and printing. 
+
+## Find 2 STLs
+First I found 2 STLs on thingiverse to make a lamp out of. 
+https://www.thingiverse.com/thing:2356344
+
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png" height=px> </html>
+
+## Rhino Shapes
+Then I went from grasshopper back to Rhino to move the shape out and then did a curve boolean to remove the excess. After I did the curve boolean, I removed the remaining bits by just cutting and deleting and then I extruded the curve. I printed 10 clips of varying levels of width, depth and height based on changing the settings in grasshopper. 
+
+## Printing 10 Clips
+I documented the print settings of each print. I initially tried to print all 10 paper clips simultaneously but then decided that the prints go faster if I did them one at a time so I have mutliple STL files.
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/PaperclipSettings.png" height=px> </html>
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1013.JPG" height=px> </html>
+
+## Video
+Link https://drive.google.com/file/d/1TZHVffnY4FFO1f2AdLM7L6f6nrV5j5PF/view?usp=sharing
+
+## STL File
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/1Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/2Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/3Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/4Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/5Clip.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/6-9Clip.stl
+
+
+## Part 2: Making nested objects
+
+Create a grasshopper definition that creates nesting structures (E.g. using offsets) that can be 3D printed in their nested state. You should have at least 3 nesting structures. Bake the result, export an STL, and 3D print the nested structure. The geometry can be whatever you want. Submit the rhino file, the grasshopper definition, your STL, and documentation of the print.
+
+## Grasshopper Setting
+I started by creating a Polygon in Grasshopper with a number slider. I then did an offset of the polygon multiple times.
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper2.png" height=px> </html>
+
+## Rhino Setting
+When I went into Rhino, I did Curve Boolean again and extracted the curves of my pentagon. I then deleted the excess layers and then extruded the curve. However, I noticed that i had multiple mesh issues when I imported the file into Ultimaker Cura. I had to keep going back into Rhino to edit the file.
+
+## Nested Print
+I managed to finally make the nested print. I used a brim on the bottom of the print of the pentagon.
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1012.JPG" height=px> </html>
+
+
+## STL File
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes3.stl
+
+## Rhino Files
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes.3dm
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/PaperClips.3dm
+
