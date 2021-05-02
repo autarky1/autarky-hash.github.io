@@ -15,6 +15,15 @@ https://www.thingiverse.com/thing:3349700
 
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png" height=px> </html>
 
+## Measuring the Lamp Base
+I measured the lamp innerds with my calipers. 
+Widest part of the light bulb: 65 mm
+Width of the Light Bulb touching connector: 31.09 mm
+Length of the Light Bulb + : 100 mm
+Length of Connector: 58.77 mm
+Width of Light Bulb Connector: 37.15 mm
+Width of the Light Bulb Wire: 3.15 mm
+
 ## Rhino Shapes
 Then I went from grasshopper back to Rhino to move the shape out and then did a curve boolean to remove the excess. After I did the curve boolean, I removed the remaining bits by just cutting and deleting and then I extruded the curve. I printed 10 clips of varying levels of width, depth and height based on changing the settings in grasshopper. 
 
