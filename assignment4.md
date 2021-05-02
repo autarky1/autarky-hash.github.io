@@ -8,6 +8,8 @@ Documentation for this assignment: Document your project on a webpage linked to 
 
 ## Find 2 STLs
 First I found 2 STLs on thingiverse to make a lamp out of. 
+https://www.thingiverse.com/thing:4632906
+
 https://www.thingiverse.com/thing:2356344
 https://www.thingiverse.com/thing:3348182
 https://www.thingiverse.com/thing:3349700
