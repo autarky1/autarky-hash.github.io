@@ -34,10 +34,11 @@ Final:
 ## Original STL Files
 I selected 2 STL files I wanted to use for my lamp- 1 was a statue of Atlas (which originally came with its own earth). The earth that it came with though was a thin earth that required a different type of filament for the light to show through. I chose a different earth mesh that had a wireframe around it so that the light can shine through. 
 
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png" height=px> </html>
+
+Links:
 https://www.thingiverse.com/thing:4632906
 https://www.thingiverse.com/thing:1750333
-
-<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png" height=px> </html>
 
 ## Measuring the Lamp Base
 I measured the lamp innerds with my calipers. 
@@ -53,7 +54,12 @@ I checked the mesh of both the STL files and they were both bad meshes with Repa
 
 ## Adjusting the Mesh
 
-I started by adjusting the earth mesh to the size of the light bulb. Because the light bulb is 100 mm, I needed to double the size of the earth.
+1. I started by adjusting the earth mesh to the size of the light bulb. Because the light bulb is 100 mm, I needed to double the size of the earth which I did with the scale function to make the earth ~120mm. The main, issue with the earth, however was that the mesh was really bad. Basically, because the earth had a million different islands that were not going to print, I had to manually delete the meshes that were not going to work and run Repair Mesh multiple times to reconcile this. I converted the earth to NURBS. Even then, I don't think I got all of the islands out of the print.
+
+2. In order to create a hole to fit the light bulb, I needed to do a MeshBooleanDifference, which I did by creating a sphere the diameter of the widest width of the light bulb to carve a hole on the bottom.   
+
+
+
 
 ## Video
 Link https://drive.google.com/file/d/1TZHVffnY4FFO1f2AdLM7L6f6nrV5j5PF/view?usp=sharing
