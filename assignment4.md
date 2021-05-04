@@ -1,13 +1,33 @@
 # Diana Tan
 
-##Part 1: Modify the mesh of two STLs to produce a single printable STL. You may use whatever STLs you want, e.g. downloaded from Thingiverse or elsewhere! When exporting the STL from Rhino, it should pass all checks for rapid prototyping.
+## Part 1: Modify the mesh of two STLs to produce a single printable STL. You may use whatever STLs you want, e.g. downloaded from Thingiverse or elsewhere! When exporting the STL from Rhino, it should pass all checks for rapid prototyping.
 
 Part 2: Please make (a start on) a lamp! Using your lamp innereds' measurements as a point of departure, make a lamp that can be assembled around the innereds out of 3D printed parts. You should be able to remove the lamp from the innereds again, so you cannot attach the lamp to the innereds with glue, fasteners, adhesive, etc. This will require you to think carefully about the interface between your parts. Imagine your lamp being in a domestic setting---perhaps it will not be wildly shaken, but it should not fall apart with normal use. For the rest of the lamp, get creative!
 
 Documentation for this assignment: Document your project on a webpage linked to from your main webpage. You will be expected to talk about your project in class next week using your webpage documentation as your presentation material. We want to know about what your lamp plan is, and how you are progressing through design, CAD, and printing. 
 
+## Part 1-
+
 ## Find 2 STLs
 First I found 2 STLs on thingiverse to make a lamp out of. 
+Dino: https://www.thingiverse.com/thing:913069/files
+Tardis: https://www.thingiverse.com/thing:153977
+
+## Check Mesh
+I checked the mesh of the dino by using Repair Mesh. It said "good mesh". Then I tried to do ReduceMesh but I found that the dino only has 650 polygons.
+I checked the mesh of the Tardis by using Repair Mesh. It also said good mesh. The Tardis had 40,302 polygons so I did ReduceMesh to switch it to 10,000 polygons.
+I also then did a MeshToNURB on both meshes to get them to turn into polysurfaces.
+
+## Scale & Halve Lamp
+
+
+## STL Files
+Original:
+Final:
+
+## Part 2-
+
+
 https://www.thingiverse.com/thing:4632906
 
 https://www.thingiverse.com/thing:2356344
