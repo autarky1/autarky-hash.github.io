@@ -6,7 +6,7 @@ Part 2: Please make (a start on) a lamp! Using your lamp innereds' measurements 
 
 Documentation for this assignment: Document your project on a webpage linked to from your main webpage. You will be expected to talk about your project in class next week using your webpage documentation as your presentation material. We want to know about what your lamp plan is, and how you are progressing through design, CAD, and printing. 
 
-## Part 1-
+## Part 1- Dino Tardis
 
 ## Find 2 STLs
 First I found 2 STLs on thingiverse to make a lamp out of. 
@@ -29,15 +29,13 @@ Finally, I did a MeshBooleanUnion of the Dino and Tardis to embed the Tardis ins
 Original:
 Final:
 
-## Part 2-
+## Part 2- Atlas Lamp
 
+## Original STL Files
+I selected 2 STL files I wanted to use for my lamp- 1 was a statue of Atlas (which originally came with its own earth). The earth that it came with though was a thin earth that required a different type of filament for the light to show through. I chose a different earth mesh that had a wireframe around it so that the light can shine through. 
 
 https://www.thingiverse.com/thing:4632906
-
-https://www.thingiverse.com/thing:2356344
-https://www.thingiverse.com/thing:3348182
-https://www.thingiverse.com/thing:3349700
-
+https://www.thingiverse.com/thing:1750333
 
 <html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png" height=px> </html>
 
@@ -45,18 +43,17 @@ https://www.thingiverse.com/thing:3349700
 I measured the lamp innerds with my calipers. 
 Widest part of the light bulb: 65 mm
 Width of the Light Bulb touching connector: 31.09 mm
-Length of the Light Bulb + : 100 mm
+Length of the Light Bulb: 100 mm
 Length of Connector: 58.77 mm
 Width of Light Bulb Connector: 37.15 mm
 Width of the Light Bulb Wire: 3.15 mm
 
-## Rhino Shapes
-Then I went from grasshopper back to Rhino to move the shape out and then did a curve boolean to remove the excess. After I did the curve boolean, I removed the remaining bits by just cutting and deleting and then I extruded the curve. I printed 10 clips of varying levels of width, depth and height based on changing the settings in grasshopper. 
+## Checking the Mesh of STL Files
+I checked the mesh of both the STL files and they were both bad meshes with Repair Mesh. The Atlas statue had a whopping 194k polygons while the Earth had 50k polygons. I did a Reduce Mesh on both files so that each had ~20k polygons. On top of that, the earth mesh was not manifold and had a lot of disjointed parts because I think someone took a globe and overlaid it against a sphere. 
 
-## Printing 10 Clips
-I documented the print settings of each print. I initially tried to print all 10 paper clips simultaneously but then decided that the prints go faster if I did them one at a time so I have mutliple STL files.
-<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/PaperclipSettings.png" height=px> </html>
-<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1013.JPG" height=px> </html>
+## Adjusting the Mesh
+
+I started by adjusting the earth mesh to the size of the light bulb. Because the light bulb is 100 mm, I needed to double the size of the earth.
 
 ## Video
 Link https://drive.google.com/file/d/1TZHVffnY4FFO1f2AdLM7L6f6nrV5j5PF/view?usp=sharing
