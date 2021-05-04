@@ -18,7 +18,11 @@ I checked the mesh of the dino by using Repair Mesh. It said "good mesh". Then I
 I checked the mesh of the Tardis by using Repair Mesh. It also said good mesh. The Tardis had 40,302 polygons so I did ReduceMesh to switch it to 10,000 polygons.
 I also then did a MeshToNURB on both meshes to get them to turn into polysurfaces.
 
-## Scale & Halve Lamp
+## Scale & Halve Dino
+
+I did a ScaleMesh on the Tardis so that the height would match the lamp. Then I actually did a plane against the Tardis and a solid plane against the Dino to carve out half of each shape. I did a MeshBooleanDifference against the Tardis and the plane and then the plane against the Dino. I also then did a MeshBoolean DIfference against the Tardis vs. the Dino to place the Tardis inside of the Dino. This resulted in a closed mesh of both the Tardis and the Dino. 
+
+Finally, I did a MeshBooleanUnion of the Dino and Tardis to embed the Tardis inside the Dino. This created a single mesh of both shapes. 
 
 
 ## STL Files
