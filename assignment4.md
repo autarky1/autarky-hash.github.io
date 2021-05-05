@@ -17,6 +17,7 @@ Tardis: https://www.thingiverse.com/thing:153977
 I checked the mesh of the dino by using Repair Mesh. It said "good mesh". Then I tried to do ReduceMesh but I found that the dino only has 650 polygons.
 I checked the mesh of the Tardis by using Repair Mesh. It also said good mesh. The Tardis had 40,302 polygons so I did ReduceMesh to switch it to 10,000 polygons.
 I also then did a MeshToNURB on both meshes to get them to turn into polysurfaces.
+<img src= "https://github.com/autarky-hash/autarky-hash.github.io/blob/main/GoodMesh.png" height=px>
 
 ## Scale & Halve Dino
 
@@ -24,6 +25,10 @@ I did a ScaleMesh on the Tardis so that the height would match the lamp. Then I 
 
 Finally, I did a MeshBooleanUnion of the Dino and Tardis to embed the Tardis inside the Dino. This created a single mesh of both shapes. 
 
+## Dino Tardis
+<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/DinoTardis2.png" height=px> 
+<img src= "https://github.com/autarky-hash/autarky-hash.github.io/blob/main/DinosaurTardisRhino.png" height=px>
+</html>
 
 ## STL Files
 Original:
@@ -33,8 +38,6 @@ Final:
 
 ## Original STL Files
 I selected 2 STL files I wanted to use for my lamp- 1 was a statue of Atlas (which originally came with its own earth). The earth that it came with though was a thin earth that required a different type of filament for the light to show through. I chose a different earth mesh that had a wireframe around it so that the light can shine through. 
-
-<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper.png" height=px> </html>
 
 Links:
 https://www.thingiverse.com/thing:4632906
