@@ -40,6 +40,8 @@ https://github.com/autarky-hash/autarky-hash.github.io/blob/main/dino.stl
 
 ## Original STL Files
 I selected 2 STL files I wanted to use for my lamp- 1 was a statue of Atlas (which originally came with its own earth). The earth that it came with though was a thin earth that required a different type of filament for the light to show through. I chose a different earth mesh that had a wireframe around it so that the light can shine through. 
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/atlasearth.png" height=px> 
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/wiredearth.png" height=px> 
 
 Links:
 <html> https://www.thingiverse.com/thing:4632906<p>
@@ -78,7 +80,12 @@ I checked the mesh of both the STL files and they were both bad meshes with Repa
 
 5. I tried to scale Atlas accordingly on the bottom of the lamp. However, I realized that if I scaled Atlas to be as big as the globe, it would exceed the build height of my printer. Instead, I scaled Atlas a little to hold the earth up at the lowest point and then duplicated him to make 2 supports on the bottom. I did a "Mirror" command on the 2nd Atlas structure so that it faced the opposite direction.
 
-6. I used distance to measure the distance between Atlas to see if it can fit the bottom of the lamp.
+6. I used distance to measure the distance between Atlas to see if it can fit the bottom of the lamp and then tried to move it up so that it would intersect with the globe.
+
+7. I did MeshBooleanunion to combine Atlas and Earth.
+
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoAtlaslamp.png" height=px> 
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoAtlaslamp2.png" height=px> 
 
 ## Printing the Lamp
 
