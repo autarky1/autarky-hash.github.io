@@ -1,6 +1,7 @@
 # Diana Tan
 
-## Part 1: Modify the mesh of two STLs to produce a single printable STL. You may use whatever STLs you want, e.g. downloaded from Thingiverse or elsewhere! When exporting the STL from Rhino, it should pass all checks for rapid prototyping.
+## Assignment 4
+Part 1: Modify the mesh of two STLs to produce a single printable STL. You may use whatever STLs you want, e.g. downloaded from Thingiverse or elsewhere! When exporting the STL from Rhino, it should pass all checks for rapid prototyping.
 
 Part 2: Please make (a start on) a lamp! Using your lamp innereds' measurements as a point of departure, make a lamp that can be assembled around the innereds out of 3D printed parts. You should be able to remove the lamp from the innereds again, so you cannot attach the lamp to the innereds with glue, fasteners, adhesive, etc. This will require you to think carefully about the interface between your parts. Imagine your lamp being in a domestic setting---perhaps it will not be wildly shaken, but it should not fall apart with normal use. For the rest of the lamp, get creative!
 
@@ -31,8 +32,8 @@ Finally, I did a MeshBooleanUnion of the Dino and Tardis to embed the Tardis ins
 </html>
 
 ## STL Files
-Final: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/DinoTardis.stl
-Original: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Doctor_Who_Tardis.STL
+Final: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/DinoTardis.stl<p>
+Original: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Doctor_Who_Tardis.STL<p>
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/dino.stl
 
 ## Part 2- Atlas Lamp
@@ -41,62 +42,49 @@ https://github.com/autarky-hash/autarky-hash.github.io/blob/main/dino.stl
 I selected 2 STL files I wanted to use for my lamp- 1 was a statue of Atlas (which originally came with its own earth). The earth that it came with though was a thin earth that required a different type of filament for the light to show through. I chose a different earth mesh that had a wireframe around it so that the light can shine through. 
 
 Links:
-https://www.thingiverse.com/thing:4632906
-https://www.thingiverse.com/thing:1750333
+<html> https://www.thingiverse.com/thing:4632906<p>
+https://www.thingiverse.com/thing:175033<p></html>
 
 ## Measuring the Lamp Base
+
 I measured the lamp innerds with my calipers. 
+
 Widest part of the light bulb: 65 mm
+
 Width of the Light Bulb touching connector: 31.09 mm
+
 Length of the Light Bulb: 100 mm
+
 Length of Connector: 58.77 mm
+
 Width of Light Bulb Connector: 37.15 mm
+
 Width of the Light Bulb Wire: 3.15 mm
 
 ## Checking the Mesh of STL Files
 I checked the mesh of both the STL files and they were both bad meshes with Repair Mesh. The Atlas statue had a whopping 194k polygons while the Earth had 50k polygons. I did a Reduce Mesh on both files so that each had ~20k polygons. On top of that, the earth mesh was not manifold and had a lot of disjointed parts because I think someone took a globe and overlaid it against a sphere. 
 
-## Adjusting the Mesh
+## Adjusting the Mesh- Earth
 
-1. I started by adjusting the earth mesh to the size of the light bulb. Because the light bulb is 100 mm, I needed to double the size of the earth which I did with the scale function to make the earth ~120mm. The main, issue with the earth, however was that the mesh was really bad. Basically, because the earth had a million different islands that were not going to print, I had to manually delete the meshes that were not going to work and run Repair Mesh multiple times to reconcile this. I converted the earth to NURBS. Even then, I don't think I got all of the islands out of the print.
+1. I started by adjusting the earth mesh to the size of the light bulb. Because the light bulb is 100 mm, I needed to double the size of the earth which I did with the Scale command function to make the earth ~120mm. The main, issue with the earth, however was that the mesh was really bad. Basically, because the earth had a million different islands that were not going to print, I had to manually delete the meshes that were not going to work and run Repair Mesh multiple times to reconcile this. I converted the earth to NURBS. Even then, I don't think I got all of the islands out of the print.
 
-2. In order to create a hole to fit the light bulb, I needed to do a MeshBooleanDifference, which I did by creating a sphere the diameter of the widest width of the light bulb to carve a hole on the bottom.   
+2. I manually deleted all of the islands as much as I can and ran Repair Mesh multiple times until I got a Good Mesh. 
 
+3. In order to create a hole to fit the light bulb, I needed to do a MeshBooleanDifference, which I did by creating a sphere the diameter of the widest width of the light bulb to carve a hole on the bottom. 
 
+## Adjusting the Mesh- Atlas
 
+4. I ran MeshtoNurbs on Atlas to change the surface to polysurfaces. I ran RepairMush multiple times and deleted some artifacts that was impacting the STL. However, I realized that the number of artifacts made it impossible to manually remove all of them. I kept running RepairMesh to see how many mesh surfaces were left.
 
-## Video
-Link https://drive.google.com/file/d/1TZHVffnY4FFO1f2AdLM7L6f6nrV5j5PF/view?usp=sharing
+5. I tried to scale Atlas accordingly on the bottom of the lamp. However, I realized that if I scaled Atlas to be as big as the globe, it would exceed the build height of my printer. Instead, I scaled Atlas a little to hold the earth up at the lowest point and then duplicated him to make 2 supports on the bottom. I did a "Mirror" command on the 2nd Atlas structure so that it faced the opposite direction.
 
-## STL File
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/1Clip.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/2Clip.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/3Clip.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/4Clip.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/5Clip.stl
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/6-9Clip.stl
+6. I used distance to measure the distance between Atlas to see if it can fit the bottom of the lamp.
+
+## Printing the Lamp
 
 
-## Part 2: Making nested objects
+8.  
+9. 
 
-Create a grasshopper definition that creates nesting structures (E.g. using offsets) that can be 3D printed in their nested state. You should have at least 3 nesting structures. Bake the result, export an STL, and 3D print the nested structure. The geometry can be whatever you want. Submit the rhino file, the grasshopper definition, your STL, and documentation of the print.
-
-## Grasshopper Setting
-I started by creating a Polygon in Grasshopper with a number slider. I then did an offset of the polygon multiple times.
-<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Grasshopper2.png" height=px> </html>
-
-## Rhino Setting
-When I went into Rhino, I did Curve Boolean again and extracted the curves of my pentagon. I then deleted the excess layers and then extruded the curve. However, I noticed that i had multiple mesh issues when I imported the file into Ultimaker Cura. I had to keep going back into Rhino to edit the file.
-
-## Nested Print
-I managed to finally make the nested print. I used a brim on the bottom of the print of the pentagon.
-<html><img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1012.JPG" height=px> </html>
-
-
-## STL File
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes3.stl
-
-## Rhino Files
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/NestedShapes.3dm
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/PaperClips.3dm
+7. 
 
