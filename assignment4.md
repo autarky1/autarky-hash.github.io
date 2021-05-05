@@ -31,8 +31,9 @@ Finally, I did a MeshBooleanUnion of the Dino and Tardis to embed the Tardis ins
 </html>
 
 ## STL Files
-Original:
-Final:
+Final: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/DinoTardis.stl
+Original: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/Doctor_Who_Tardis.STL
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/dino.stl
 
 ## Part 2- Atlas Lamp
 
