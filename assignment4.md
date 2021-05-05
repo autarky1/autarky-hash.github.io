@@ -87,11 +87,45 @@ I checked the mesh of both the STL files and they were both bad meshes with Repa
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoAtlaslamp.png" height=px> 
 <img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoAtlaslamp2.png" height=px> 
 
+8. I ran a Repair Mesh on the file and it said it was a good mesh.
+
 ## Printing the Lamp
+9. I imported the Lamp into Cura and Cura actually said my mesh was bad but the areas highlighted didn't seem like they would be places that impacted the overall mesh (like small areas).
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura.png" height=px> 
 
+10. I selected the Low Quality Print and I adjusted the function to do Excessive Stitching, Infill Supports and a Raft. Cura said that the print will take 2 days and 20 hours.
 
-8.  
-9. 
+11. When I started the print, I had numerous issues mainly with adhesion and the print would not start. The main issue is because I ran out of the 3D Solutech PLA filament so I started to use a metal Filament with the same settings. I tried to print the statue multiple times, only to have the print not even complete the raft. 
 
-7. 
+12. I re-leveled the plate, tried different adhesion strategy and ran the leveling program multiple times. 
+
+13. Then, I went back into the review section of Amazon and went through the review until I found what one of the reviewers recommended- 
+
+First layer temp: 240C
+
+Other layers: 235C
+
+Bed Temp: 55C
+
+Extrusion Multiplier: 0.95
+
+Fan Speed: Min 30% Max 60%(disabled for first layer)
+
+Z-hop: Disabled
+
+Retraction length: 0.5mm
+
+Retraction Speed: 40 mm/s
+
+14. Adjusting the print actually allowed the print to start. I was able to finish the print in 2+ days. However, halfway through the print, I realized that i had no way to remove the infill if I let the print complete at around 75%. I actually put the light bulb on top of the print and stopped right when it looked like it would no longer fit inside in the next layer.
+<img src= "https://github.com/autarky-hash/autarky-hash.github.io/blob/main/64187462196__85854E45-56FA-4489-B122-79DF1E081D76.JPG" height=px>
+## Next Steps:
+
+15. Remove the supports to peel out the rest of the print.
+
+16. Adjust the STL file so that I actually have a hole on the top instead of stopping the print.
+
+17. Clean up the Mesh.
+
+## STL File:
 
