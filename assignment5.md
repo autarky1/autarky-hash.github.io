@@ -117,3 +117,4 @@ The lessons I learned from V1 of the lamp was:
 5. The tree infill was really confusing because you cannot delineate between what was a "country" on the globe.
 
 ## Atlas Lamp Changes Overall
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura-2.png
