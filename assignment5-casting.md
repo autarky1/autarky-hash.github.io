@@ -22,4 +22,4 @@ I then broke up the bike into 3 poly surfaces per side. For the more complex sid
 I then trimmed the outer layer of the planar surface to create a square that I can then extrude into the outer layers of my mold.
 
 ## Side 2: 
-This was an absolutely painful experience. I exploded the polysurface but the lines of the mold intersected and did not sit on a planar surface.
+This was an absolutely painful experience. I exploded the polysurface but the lines of the mold intersected and did not sit on a planar surface. Because of the shape of the object, Junchao helped me edit the curves (BlendCurve, Close Curve) But because the object existed in its own 3D dimension, it will not form a planar surface for me to make the mold out of. Instead, what I actually ended up doing was offsetting the curves and then lofting the curve and scaling it multiple times instead instead. Then, I actually, created a "shell" by using "steep1" in Rhino instead and formed a sort of outer layer for the curve so that it will sort-of form a planar surface.  
