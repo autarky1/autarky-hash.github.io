@@ -118,3 +118,9 @@ The lessons I learned from V1 of the lamp was:
 
 ## Atlas Lamp Changes Overall
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura-2.png
+
+## Part 2: Casting/Beginning of Final Project
+
+Intro: I wanted to create bike trophies for my work team (I work on delivery bikes). The bike that we used is custom manufactured so there is no STL file readily available. I also wanted to make an assortment of other bikes for my co-workers themed after things they worked on as well.
+
+AI Edit: 
