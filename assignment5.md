@@ -1,6 +1,6 @@
 # Diana Tan
 
-## Assignment 5
+## Assignment 5 (Part 1!)
 Part 1: Your final lamps!
 
 Please make a lamp! Using your lamp innereds' measurements as a point of departure, make a lamp that can be assembled around the innereds out of 3D printed parts. You should be able to remove the lamp from the innereds again, so you cannot attach the lamp to the innereds with glue, fasteners, adhesive, etc.  Imagine your lamp being in a domestic setting---perhaps it will not be wildly shaken, but it should not fall apart with normal use. 
@@ -119,8 +119,3 @@ The lessons I learned from V1 of the lamp was:
 ## Atlas Lamp Changes Overall
 https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura-2.png
 
-## Part 2: Casting/Beginning of Final Project
-
-Intro: I wanted to create bike trophies for my work team (I work on delivery bikes). The bike that we used is custom manufactured so there is no STL file readily available. I also wanted to make an assortment of other bikes for my co-workers themed after things they worked on as well.
-
-AI Edit: 
