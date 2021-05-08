@@ -13,7 +13,13 @@ Intro: I wanted to create bike trophies for my work team (I work on delivery bik
 I actually started by tracing the (grainy) bike model of the file that we had at work. I took the initial photo and colored in black and white to omit the detail. I also deleted some detail I didn't want (like small text), wheels, etc.
 In Illustrator, I did an image trace and then cleaned up stuff like curves in detail, making some curves wider so that it would be easier to print.
 
-## Rhino:
+## Rhino Mold:
 In Rhino, I imported the AI file and then extruded the model of the bike. Then I turned on Draft Angle Analysis to be able to see all surfaces.
 
-I then broke up the bike into 3 poly surfaces per side. For the more complex side, it was actually relatively straightforward- I exploded the polysurface
+## Side 1:
+I then broke up the bike into 3 poly surfaces per side. For the more complex side, it was actually relatively straightforward- I exploded the polysurface and then offset the curve. Junchao helped me then edit the curves (BlendCurve, CloseCurve) and also use Loft so that it would actually create a planar surface. I flipped the model several times until I was able to get a good planar surface. I then did a Blend Surface betwen the 2 outer layers of the plane. 
+
+I then trimmed the outer layer of the planar surface to create a square that I can then extrude into the outer layers of my mold.
+
+## Side 2: 
+This was an absolutely painful experience. I exploded the polysurface but the lines of the mold intersected and did not sit on a planar surface.
