@@ -1,6 +1,7 @@
 # Diana Tan
 
 ## Assignment 5 (Part 1!)
+(PART 2 IS HERE: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/assignment5-casting.md)
 Part 1: Your final lamps!
 
 Please make a lamp! Using your lamp innereds' measurements as a point of departure, make a lamp that can be assembled around the innereds out of 3D printed parts. You should be able to remove the lamp from the innereds again, so you cannot attach the lamp to the innereds with glue, fasteners, adhesive, etc.  Imagine your lamp being in a domestic setting---perhaps it will not be wildly shaken, but it should not fall apart with normal use. 
