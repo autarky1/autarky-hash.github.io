@@ -104,7 +104,7 @@ Retraction Speed: 40 mm/s
 
 17. Clean up the Mesh.
 
-## STL File:
+## Original STL File:
 
 https://drive.google.com/file/d/1olMB4K5JkJcBxyW9kG-Ffihlch3T1WXP/view?usp=sharing
 
@@ -117,5 +117,13 @@ The lessons I learned from V1 of the lamp was:
 5. The tree infill was really confusing because you cannot delineate between what was a "country" on the globe.
 
 ## Atlas Lamp Changes Overall
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura-2.png
+1. I added a base from a trophy that I resized to act as a base for the lamp. This provided stability for the feet to stand on to preven the lamp from tipping over (https://www.thingiverse.com/thing:520101)
+2. i swtiched the globe from a earth with many individual islands and a gridded structure to a opaque Moon that was relativley flat (Source: https://www.thingiverse.com/thing:2771919). THis allowed me to print much more easily and without as much infill.
+3. I swapped the filament used for the moon from a metal grid to a translucent PLA. This allowed the light to show through even if there were no holes. This also removed hte brittleness associated with removing the infill.
+4. I changed Cura settings so that it was no longer "tree" but "normal" supports and I selected the option that made the supports much easier to remove. 
+
+<img src= "https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura-2.png")
+
+## Final Lamp
+
 
