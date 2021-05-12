@@ -130,5 +130,5 @@ The lessons I learned from V1 of the lamp was:
 
 ## Final STL
 https://drive.google.com/file/d/1mEiIeqWomNucb8Yj8S61-DhOLTInthGw/view?usp=sharing
-
+https://drive.google.com/file/d/1dw7tOgF11jRegYezYer6XCIr2N8T-KHo/view?usp=sharing
 
