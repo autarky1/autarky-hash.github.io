@@ -122,8 +122,13 @@ The lessons I learned from V1 of the lamp was:
 3. I swapped the filament used for the moon from a metal grid to a translucent PLA. This allowed the light to show through even if there were no holes. This also removed hte brittleness associated with removing the infill.
 4. I changed Cura settings so that it was no longer "tree" but "normal" supports and I selected the option that made the supports much easier to remove. 
 
-<img src= "https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura-2.png")
+<img src= "https://github.com/autarky-hash/autarky-hash.github.io/blob/main/AtlasCura-2.png" height= px>
 
 ## Final Lamp
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1125.JPG" height=px>
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1127.JPG" height=px>
+
+## Final STL
+https://drive.google.com/file/d/1mEiIeqWomNucb8Yj8S61-DhOLTInthGw/view?usp=sharing
 
 
