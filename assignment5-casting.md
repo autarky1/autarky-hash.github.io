@@ -38,4 +38,4 @@ Printing this mold was a disaster. Cura had a lot of trouble processing this and
 I unfortunately had some extenuating circumstances and ran out of time to re-print the mold to cast. I think I need to start over with the mesh to create a different parting line so that both parts of the object are in the same dimension. then I will follow the same steps to create the mold and reattempt to mold and cast.
 
 ## STL File
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1130.JPG" height=px>
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RytleBike7.stl
