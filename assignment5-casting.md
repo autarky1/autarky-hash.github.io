@@ -1,9 +1,7 @@
 # Diana Tan
 
 ## Assignment 5 (Part 2!)
-
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoAtlaslamp.png" height=px> 
-<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoAtlaslamp2.png" height=px> 
+(Part 1 is here: https://github.com/autarky-hash/autarky-hash.github.io/blob/main/assignment5.md)
 
 ## Part 2: Casting/Beginning of Final Project
 
@@ -22,4 +20,22 @@ I then broke up the bike into 3 poly surfaces per side. For the more complex sid
 I then trimmed the outer layer of the planar surface to create a square that I can then extrude into the outer layers of my mold.
 
 ## Side 2: 
-This was an absolutely painful experience. I exploded the polysurface but the lines of the mold intersected and did not sit on a planar surface. Because of the shape of the object, Junchao helped me edit the curves (BlendCurve, Close Curve) But because the object existed in its own 3D dimension, it will not form a planar surface for me to make the mold out of. Instead, what I actually ended up doing was offsetting the curves and then lofting the curve and scaling it multiple times instead instead. Then, I actually, created a "shell" by using "steep1" in Rhino instead and formed a sort of outer layer for the curve so that it will sort-of form a planar surface.  
+This was an absolutely painful experience. I exploded the polysurface but the lines of the mold intersected and did not sit on a planar surface. Because of the shape of the object, Junchao helped me edit the curves (BlendCurve, Close Curve) But because the object existed in its own 3D dimension, it will not form a planar surface for me to make the mold out of. Instead, what I actually ended up doing was offsetting the curves and then lofting the curve and scaling it multiple times instead instead. Then, I actually, created a "shell" by using "steep1" in Rhino instead and formed a sort of outer layer for the curve so that it will sort-of form a planar surface.
+
+## Sprues, Runners, Parting Lines
+I decided to add a runner on one side of my model as little cylinders. I also selected the parting line as being a diagonal cross section of the bike- in retrospect taht was a bad idea. I didn't feel like I needed a sprue (or rather, I didn't know where to put it) since the mold was so weird and off-kilter for the 2 initial models that there were so many goals to pour the mold without needing a sprue. 
+
+## Rhino Files
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoBike-1.png" height=px>
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/RhinoBike-3.png" height=px>
+
+## Cura & Printing
+Printing this mold was a disaster. Cura had a lot of trouble processing this and sometimes it would work and other times, it would say that my mesh needed to be adjusted. After i spent many hours printing this, the model stopped adhering to the print bed. To complete the project, I need more time to adjust the mold, and to print the mold before i attempt the casting.
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/CuraBike.png" height=px>
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1130.JPG" height=px>
+
+## Next Steps
+I unfortunately had some extenuating circumstances and ran out of time to re-print the mold to cast. I think I need to start over with the mesh to create a different parting line so that both parts of the object are in the same dimension. then I will follow the same steps to create the mold and reattempt to mold and cast.
+
+## STL File
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1130.JPG" height=px>
