@@ -43,11 +43,32 @@ In class, the Nadya talked about how I should do Totoro instead (round, easy obj
 Link: https://www.thingiverse.com/thing:2792112
 
 I started by creating a draft angle analysis.
-https://github.com/autarky-hash/autarky-hash.github.io/blob/main/TotoroDraftAngle.png
-Then I modeled in Rhino
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/TotoroDraftAngle.png" height=px>.
+
+Then I modeled it in Rhino
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/TotoroRhino.png" height=px>.
 
 Then I printed it and poured the Oomo to create the mold.
 
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1162.JPG?raw=true" height=px>.
 However, when I cast it, the sharp edges of the phone holder made it extremely difficult for the plaster to come out well. Also, since i was testing, I did not do a diligent job of lining up the totoro.
 
+## STL File
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/TotoroPhoneHolder.3dm
+
 ## Pivot 2: 
+Then I pivoted to do a ring instead because of the lack of sharp corners. I tried to do a LOTR ring bowl from Thingiverse: https://www.thingiverse.com/thing:4688655
+
+I created a mold in Rhino with sprues and a pouring line.
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1174.JPG" height=px>
+
+Then I poured it in different sizes in Oomoo.
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1175.JPG" height=px>
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/IMG_1179.JPG" height=px>
+However, then the plaster cracked again. I sort of casted the ring but the plaster I think was too brittle for it when it was removed from the mold.
+
+## STL files:
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/LOTRRing_Top.stl
+https://github.com/autarky-hash/autarky-hash.github.io/blob/main/LOTRRing_Bottom.stl
+
+
