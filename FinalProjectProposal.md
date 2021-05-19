@@ -18,7 +18,7 @@ MY low bar goal is to make a miniatiarized table that can be snapped together wi
 
 My medium bar goal is to make a small (low number of blocks) item like a small shelf.
 
-My high abar goal is to make a table for my glowforge.
+My high bar goal is to make a table for my glowforge.
 
 ## Rendering
 I have not completed the rendering yet but I'm envisioning that it will look similar to this:
