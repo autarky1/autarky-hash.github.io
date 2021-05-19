@@ -22,7 +22,7 @@ My high bar goal is to make a table for my glowforge.
 
 ## Rendering
 I have not completed the rendering yet but I'm envisioning that it will look similar to this:
-<img src=" https://d32dm0rphc51dk.cloudfront.net/zGKmpjcdkJ8SqNp4fgZXWw/large.jpg" height=px> (From Artsy)
+<img src="https://github.com/autarky-hash/autarky-hash.github.io/blob/main/puzzletable.png" height=px> (From Artsy)
 
 ## Break Down of Tasks
 1. Order Materials
